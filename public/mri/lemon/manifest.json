@@ -1,0 +1,239 @@
+{
+  "dataset": "MPI-Leipzig Mind-Brain-Body / LEMON",
+  "modality": "Skull-stripped MP2RAGE T1 MRI",
+  "source": "https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html",
+  "license": "PDDL",
+  "processing": "Canonical RAS T1 with ANTsPyNet Deep Atropos tissue segmentation and DKT parcellation",
+  "tissues": [
+    {
+      "id": "csf",
+      "label": 1,
+      "name": "Cerebrospinal fluid"
+    },
+    {
+      "id": "cortical_gm",
+      "label": 2,
+      "name": "Cortical gray matter"
+    },
+    {
+      "id": "white_matter",
+      "label": 3,
+      "name": "White matter"
+    },
+    {
+      "id": "deep_gm",
+      "label": 4,
+      "name": "Deep gray matter"
+    },
+    {
+      "id": "brainstem",
+      "label": 5,
+      "name": "Brainstem"
+    },
+    {
+      "id": "cerebellum",
+      "label": 6,
+      "name": "Cerebellum"
+    }
+  ],
+  "dktGroups": [
+    {
+      "id": "ventricles",
+      "name": "Ventricles",
+      "labels": [
+        4,
+        5,
+        14,
+        15,
+        24,
+        43,
+        44,
+        72
+      ]
+    },
+    {
+      "id": "hippocampus",
+      "name": "Hippocampus",
+      "labels": [
+        17,
+        53
+      ]
+    },
+    {
+      "id": "amygdala",
+      "name": "Amygdala",
+      "labels": [
+        18,
+        54
+      ]
+    },
+    {
+      "id": "thalamus",
+      "name": "Thalamus",
+      "labels": [
+        10,
+        49
+      ]
+    },
+    {
+      "id": "caudate",
+      "name": "Caudate",
+      "labels": [
+        11,
+        50
+      ]
+    },
+    {
+      "id": "putamen",
+      "name": "Putamen",
+      "labels": [
+        12,
+        51
+      ]
+    },
+    {
+      "id": "pallidum",
+      "name": "Pallidum",
+      "labels": [
+        13,
+        52
+      ]
+    },
+    {
+      "id": "accumbens",
+      "name": "Accumbens",
+      "labels": [
+        26,
+        58
+      ]
+    },
+    {
+      "id": "cortex",
+      "name": "Cortical parcellation",
+      "range": [
+        1000,
+        2999
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "name": "Cerebellum",
+      "labels": [
+        7,
+        8,
+        46,
+        47
+      ]
+    }
+  ],
+  "scans": [
+    {
+      "id": "sub-010003",
+      "ageBin": "20-25",
+      "ageMid": 22.5,
+      "group": "young",
+      "brainAge": 28.07461166381836,
+      "gmFraction": 0.4159,
+      "csfFraction": 0.2194,
+      "ventricleVolumeMm3": 7576.0,
+      "dktLabelCount": 90,
+      "disagreement": 0.17027514980704997,
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "spacingMm": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "files": {
+        "t1": "/mri/lemon/sub-010003-t1.nii.gz",
+        "atropos": "/mri/lemon/sub-010003-atropos.nii.gz",
+        "dkt": "/mri/lemon/sub-010003-dkt.nii.gz"
+      }
+    },
+    {
+      "id": "sub-010015",
+      "ageBin": "20-25",
+      "ageMid": 22.5,
+      "group": "young",
+      "brainAge": 32.35326385498047,
+      "gmFraction": 0.4344,
+      "csfFraction": 0.2132,
+      "ventricleVolumeMm3": 15972.0,
+      "dktLabelCount": 90,
+      "disagreement": 0.6217087144266806,
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "spacingMm": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "files": {
+        "t1": "/mri/lemon/sub-010015-t1.nii.gz",
+        "atropos": "/mri/lemon/sub-010015-atropos.nii.gz",
+        "dkt": "/mri/lemon/sub-010015-dkt.nii.gz"
+      }
+    },
+    {
+      "id": "sub-010039",
+      "ageBin": "70-75",
+      "ageMid": 72.5,
+      "group": "older",
+      "brainAge": 73.62242126464844,
+      "gmFraction": 0.3773,
+      "csfFraction": 0.3367,
+      "ventricleVolumeMm3": 27662.0,
+      "dktLabelCount": 90,
+      "disagreement": 0.707165844925909,
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "spacingMm": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "files": {
+        "t1": "/mri/lemon/sub-010039-t1.nii.gz",
+        "atropos": "/mri/lemon/sub-010039-atropos.nii.gz",
+        "dkt": "/mri/lemon/sub-010039-dkt.nii.gz"
+      }
+    },
+    {
+      "id": "sub-010104",
+      "ageBin": "60-65",
+      "ageMid": 62.5,
+      "group": "older",
+      "brainAge": 76.60540008544922,
+      "gmFraction": 0.3818,
+      "csfFraction": 0.3173,
+      "ventricleVolumeMm3": 34475.0,
+      "dktLabelCount": 90,
+      "disagreement": 0.8052318744769575,
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "spacingMm": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "files": {
+        "t1": "/mri/lemon/sub-010104-t1.nii.gz",
+        "atropos": "/mri/lemon/sub-010104-atropos.nii.gz",
+        "dkt": "/mri/lemon/sub-010104-dkt.nii.gz"
+      }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "region": "skeleton",
+  "cmap": "coolwarm",
+  "clim": [
+    -0.34402786157084897,
+    0.34402786157084897
+  ],
+  "groups": [
+    {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059
+    },
+    {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207
+    },
+    {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317
+    },
+    {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403
+    },
+    {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232
+    },
+    {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214
+    },
+    {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253
+    },
+    {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275
+    },
+    {
+      "group": "skull",
+      "layer": "skeleton",
+      "rho": -0.07887375754417095
+    },
+    {
+      "group": "sternum",
+      "layer": "skeleton",
+      "rho": 0.14907455723504157
+    },
+    {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048
+    }
+  ],
+  "structures": {
+    "clavicula_left": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 10797
+    },
+    "clavicula_right": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 11977
+    },
+    "costal_cartilages": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 49884
+    },
+    "femur_left": {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207,
+      "color": "#dc5d4a",
+      "n_voxels": 62243
+    },
+    "femur_right": {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207,
+      "color": "#dc5d4a",
+      "n_voxels": 59052
+    },
+    "hip_left": {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232,
+      "color": "#ec7f63",
+      "n_voxels": 122569
+    },
+    "hip_right": {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232,
+      "color": "#ec7f63",
+      "n_voxels": 123708
+    },
+    "humerus_left": {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317,
+      "color": "#e5d8d1",
+      "n_voxels": 76131
+    },
+    "humerus_right": {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317,
+      "color": "#e5d8d1",
+      "n_voxels": 64565
+    },
+    "rib_left_1": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4500
+    },
+    "rib_left_10": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4445
+    },
+    "rib_left_11": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4456
+    },
+    "rib_left_12": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 2467
+    },
+    "rib_left_2": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4343
+    },
+    "rib_left_3": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4740
+    },
+    "rib_left_4": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5908
+    },
+    "rib_left_5": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7351
+    },
+    "rib_left_6": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7418
+    },
+    "rib_left_7": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6701
+    },
+    "rib_left_8": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5828
+    },
+    "rib_left_9": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4609
+    },
+    "rib_right_1": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4142
+    },
+    "rib_right_10": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5208
+    },
+    "rib_right_11": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 3119
+    },
+    "rib_right_12": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 182
+    },
+    "rib_right_2": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4832
+    },
+    "rib_right_3": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4794
+    },
+    "rib_right_4": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6314
+    },
+    "rib_right_5": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7474
+    },
+    "rib_right_6": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 9463
+    },
+    "rib_right_7": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 8468
+    },
+    "rib_right_8": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7476
+    },
+    "rib_right_9": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6574
+    },
+    "sacrum": {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253,
+      "color": "#f4987a",
+      "n_voxels": 59390
+    },
+    "scapula_left": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 40834
+    },
+    "scapula_right": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 44728
+    },
+    "skull": {
+      "group": "skull",
+      "layer": "skeleton",
+      "rho": -0.07887375754417095,
+      "color": "#bbd1f8",
+      "n_voxels": 255791
+    },
+    "sternum": {
+      "group": "sternum",
+      "layer": "skeleton",
+      "rho": 0.14907455723504157,
+      "color": "#f7a688",
+      "n_voxels": 23187
+    },
+    "vertebrae_C1": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4592
+    },
+    "vertebrae_C2": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 5843
+    },
+    "vertebrae_C3": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4289
+    },
+    "vertebrae_C4": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4325
+    },
+    "vertebrae_C5": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4634
+    },
+    "vertebrae_C6": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4996
+    },
+    "vertebrae_C7": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 6492
+    },
+    "vertebrae_L1": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 20684
+    },
+    "vertebrae_L2": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 21239
+    },
+    "vertebrae_L3": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 21491
+    },
+    "vertebrae_L4": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 20422
+    },
+    "vertebrae_L5": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 22134
+    },
+    "vertebrae_S1": {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253,
+      "color": "#f4987a",
+      "n_voxels": 17277
+    },
+    "vertebrae_T1": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7886
+    },
+    "vertebrae_T10": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 13796
+    },
+    "vertebrae_T11": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 16079
+    },
+    "vertebrae_T12": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 19199
+    },
+    "vertebrae_T2": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7542
+    },
+    "vertebrae_T3": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7634
+    },
+    "vertebrae_T4": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 8407
+    },
+    "vertebrae_T5": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 9112
+    },
+    "vertebrae_T6": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 9221
+    },
+    "vertebrae_T7": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 11041
+    },
+    "vertebrae_T8": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 11272
+    },
+    "vertebrae_T9": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 12371
+    }
+  },
+  "caveat": "Colour = measured cross-sectional Spearman rho(volume, age); CT-segmented real anatomy; schematic paint; not longitudinal."
+}

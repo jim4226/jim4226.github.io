@@ -1,0 +1,998 @@
+{
+  "region": "all",
+  "cmap": "coolwarm",
+  "clim": [
+    -0.34402786157084897,
+    0.34402786157084897
+  ],
+  "groups": [
+    {
+      "group": "adrenal_gland",
+      "layer": "organ",
+      "rho": 0.06922222828828642
+    },
+    {
+      "group": "airway",
+      "layer": "organ",
+      "rho": 0.11435516779613386
+    },
+    {
+      "group": "aorta",
+      "layer": "organ",
+      "rho": 0.2976449572988786
+    },
+    {
+      "group": "bladder",
+      "layer": "organ",
+      "rho": -0.05413433452043974
+    },
+    {
+      "group": "brain",
+      "layer": "organ",
+      "rho": 0.12388972443974432
+    },
+    {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059
+    },
+    {
+      "group": "colon",
+      "layer": "organ",
+      "rho": 0.01944057547175133
+    },
+    {
+      "group": "common_carotid_artery",
+      "layer": "organ",
+      "rho": 0.2608850716296758
+    },
+    {
+      "group": "duodenum",
+      "layer": "organ",
+      "rho": 0.09662089154977324
+    },
+    {
+      "group": "esophagus",
+      "layer": "organ",
+      "rho": 0.21483140830640873
+    },
+    {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207
+    },
+    {
+      "group": "gallbladder",
+      "layer": "organ",
+      "rho": -0.016105597903462682
+    },
+    {
+      "group": "heart",
+      "layer": "organ",
+      "rho": 0.19912039843699714
+    },
+    {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317
+    },
+    {
+      "group": "kidney",
+      "layer": "organ",
+      "rho": -0.048001828582928965
+    },
+    {
+      "group": "liver",
+      "layer": "organ",
+      "rho": -0.21820274616460678
+    },
+    {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403
+    },
+    {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194
+    },
+    {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171
+    },
+    {
+      "group": "pancreas",
+      "layer": "organ",
+      "rho": -0.17485366951441708
+    },
+    {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232
+    },
+    {
+      "group": "portal_vein_and_splenic_vein",
+      "layer": "organ",
+      "rho": -0.07038377651303708
+    },
+    {
+      "group": "prostate",
+      "layer": "organ",
+      "rho": 0.1542243025489667
+    },
+    {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214
+    },
+    {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253
+    },
+    {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275
+    },
+    {
+      "group": "skull",
+      "layer": "skeleton",
+      "rho": -0.07887375754417095
+    },
+    {
+      "group": "small_bowel",
+      "layer": "organ",
+      "rho": 0.06574052393955282
+    },
+    {
+      "group": "spinal_cord",
+      "layer": "organ",
+      "rho": 0.0394415275262175
+    },
+    {
+      "group": "spleen",
+      "layer": "organ",
+      "rho": -0.18822630776306862
+    },
+    {
+      "group": "sternum",
+      "layer": "skeleton",
+      "rho": 0.14907455723504157
+    },
+    {
+      "group": "stomach",
+      "layer": "organ",
+      "rho": -0.06376528759609329
+    },
+    {
+      "group": "subclavian_artery",
+      "layer": "organ",
+      "rho": 0.34402786157084897
+    },
+    {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048
+    },
+    {
+      "group": "thyroid_gland",
+      "layer": "organ",
+      "rho": 0.07760124411155268
+    },
+    {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027
+    }
+  ],
+  "structures": {
+    "adrenal_gland_left": {
+      "group": "adrenal_gland",
+      "layer": "organ",
+      "rho": 0.06922222828828642,
+      "color": "#f2cbb7",
+      "n_voxels": 1657
+    },
+    "adrenal_gland_right": {
+      "group": "adrenal_gland",
+      "layer": "organ",
+      "rho": 0.06922222828828642,
+      "color": "#f2cbb7",
+      "n_voxels": 1455
+    },
+    "aorta": {
+      "group": "aorta",
+      "layer": "organ",
+      "rho": 0.2976449572988786,
+      "color": "#cc403a",
+      "n_voxels": 93352
+    },
+    "atrial_appendage_left": {
+      "group": "heart",
+      "layer": "organ",
+      "rho": 0.19912039843699714,
+      "color": "#ef886b",
+      "n_voxels": 2110
+    },
+    "autochthon_left": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 173211
+    },
+    "autochthon_right": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 165677
+    },
+    "brachiocephalic_trunk": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 1575
+    },
+    "brachiocephalic_vein_left": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 4430
+    },
+    "brachiocephalic_vein_right": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 1721
+    },
+    "brain": {
+      "group": "brain",
+      "layer": "organ",
+      "rho": 0.12388972443974432,
+      "color": "#f7b396",
+      "n_voxels": 370777
+    },
+    "clavicula_left": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 10797
+    },
+    "clavicula_right": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 11977
+    },
+    "colon": {
+      "group": "colon",
+      "layer": "organ",
+      "rho": 0.01944057547175133,
+      "color": "#e4d9d2",
+      "n_voxels": 163298
+    },
+    "common_carotid_artery_left": {
+      "group": "common_carotid_artery",
+      "layer": "organ",
+      "rho": 0.2608850716296758,
+      "color": "#dc5d4a",
+      "n_voxels": 2182
+    },
+    "common_carotid_artery_right": {
+      "group": "common_carotid_artery",
+      "layer": "organ",
+      "rho": 0.2608850716296758,
+      "color": "#dc5d4a",
+      "n_voxels": 1127
+    },
+    "costal_cartilages": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 49884
+    },
+    "duodenum": {
+      "group": "duodenum",
+      "layer": "organ",
+      "rho": 0.09662089154977324,
+      "color": "#f5c0a7",
+      "n_voxels": 19834
+    },
+    "esophagus": {
+      "group": "esophagus",
+      "layer": "organ",
+      "rho": 0.21483140830640873,
+      "color": "#ec7f63",
+      "n_voxels": 12789
+    },
+    "femur_left": {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207,
+      "color": "#dc5d4a",
+      "n_voxels": 62243
+    },
+    "femur_right": {
+      "group": "femur",
+      "layer": "skeleton",
+      "rho": 0.260814244760207,
+      "color": "#dc5d4a",
+      "n_voxels": 59052
+    },
+    "gallbladder": {
+      "group": "gallbladder",
+      "layer": "organ",
+      "rho": -0.016105597903462682,
+      "color": "#d7dce3",
+      "n_voxels": 10529
+    },
+    "gluteus_maximus_left": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 163831
+    },
+    "gluteus_maximus_right": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 178148
+    },
+    "gluteus_medius_left": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 86592
+    },
+    "gluteus_medius_right": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 95424
+    },
+    "gluteus_minimus_left": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 17965
+    },
+    "gluteus_minimus_right": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 18449
+    },
+    "heart": {
+      "group": "heart",
+      "layer": "organ",
+      "rho": 0.19912039843699714,
+      "color": "#ef886b",
+      "n_voxels": 190341
+    },
+    "hip_left": {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232,
+      "color": "#ec7f63",
+      "n_voxels": 122569
+    },
+    "hip_right": {
+      "group": "pelvis",
+      "layer": "skeleton",
+      "rho": 0.21484247125592232,
+      "color": "#ec7f63",
+      "n_voxels": 123708
+    },
+    "humerus_left": {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317,
+      "color": "#e5d8d1",
+      "n_voxels": 76131
+    },
+    "humerus_right": {
+      "group": "humerus",
+      "layer": "skeleton",
+      "rho": 0.024152691909268317,
+      "color": "#e5d8d1",
+      "n_voxels": 64565
+    },
+    "iliac_artery_left": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 5477
+    },
+    "iliac_artery_right": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 4945
+    },
+    "iliac_vena_left": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 8661
+    },
+    "iliac_vena_right": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 6785
+    },
+    "iliopsoas_left": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 101055
+    },
+    "iliopsoas_right": {
+      "group": "muscle",
+      "layer": "organ",
+      "rho": -0.05041552357975171,
+      "color": "#c9d7f0",
+      "n_voxels": 96627
+    },
+    "inferior_vena_cava": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 17544
+    },
+    "kidney_left": {
+      "group": "kidney",
+      "layer": "organ",
+      "rho": -0.048001828582928965,
+      "color": "#cad8ef",
+      "n_voxels": 48560
+    },
+    "kidney_right": {
+      "group": "kidney",
+      "layer": "organ",
+      "rho": -0.048001828582928965,
+      "color": "#cad8ef",
+      "n_voxels": 44292
+    },
+    "liver": {
+      "group": "liver",
+      "layer": "organ",
+      "rho": -0.21820274616460678,
+      "color": "#7597f6",
+      "n_voxels": 569460
+    },
+    "lung_lower_lobe_left": {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194,
+      "color": "#f2c9b4",
+      "n_voxels": 329236
+    },
+    "lung_lower_lobe_right": {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194,
+      "color": "#f2c9b4",
+      "n_voxels": 242605
+    },
+    "lung_middle_lobe_right": {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194,
+      "color": "#f2c9b4",
+      "n_voxels": 168180
+    },
+    "lung_upper_lobe_left": {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194,
+      "color": "#f2c9b4",
+      "n_voxels": 389348
+    },
+    "lung_upper_lobe_right": {
+      "group": "lung",
+      "layer": "organ",
+      "rho": 0.07317205108510194,
+      "color": "#f2c9b4",
+      "n_voxels": 346094
+    },
+    "pancreas": {
+      "group": "pancreas",
+      "layer": "organ",
+      "rho": -0.17485366951441708,
+      "color": "#8badfd",
+      "n_voxels": 27322
+    },
+    "portal_vein_and_splenic_vein": {
+      "group": "portal_vein_and_splenic_vein",
+      "layer": "organ",
+      "rho": -0.07038377651303708,
+      "color": "#bfd3f6",
+      "n_voxels": 9810
+    },
+    "prostate": {
+      "group": "prostate",
+      "layer": "organ",
+      "rho": 0.1542243025489667,
+      "color": "#f6a385",
+      "n_voxels": 8776
+    },
+    "pulmonary_vein": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 6405
+    },
+    "rib_left_1": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4500
+    },
+    "rib_left_10": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4445
+    },
+    "rib_left_11": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4456
+    },
+    "rib_left_12": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 2467
+    },
+    "rib_left_2": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4343
+    },
+    "rib_left_3": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4740
+    },
+    "rib_left_4": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5908
+    },
+    "rib_left_5": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7351
+    },
+    "rib_left_6": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7418
+    },
+    "rib_left_7": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6701
+    },
+    "rib_left_8": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5828
+    },
+    "rib_left_9": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4609
+    },
+    "rib_right_1": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4142
+    },
+    "rib_right_10": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 5208
+    },
+    "rib_right_11": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 3119
+    },
+    "rib_right_12": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 182
+    },
+    "rib_right_2": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4832
+    },
+    "rib_right_3": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 4794
+    },
+    "rib_right_4": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6314
+    },
+    "rib_right_5": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7474
+    },
+    "rib_right_6": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 9463
+    },
+    "rib_right_7": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 8468
+    },
+    "rib_right_8": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 7476
+    },
+    "rib_right_9": {
+      "group": "ribs",
+      "layer": "skeleton",
+      "rho": 0.05170525315523214,
+      "color": "#eed0c0",
+      "n_voxels": 6574
+    },
+    "sacrum": {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253,
+      "color": "#f4987a",
+      "n_voxels": 59390
+    },
+    "scapula_left": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 40834
+    },
+    "scapula_right": {
+      "group": "shoulder_girdle",
+      "layer": "skeleton",
+      "rho": 0.01701922928054275,
+      "color": "#e3d9d3",
+      "n_voxels": 44728
+    },
+    "skull": {
+      "group": "skull",
+      "layer": "skeleton",
+      "rho": -0.07887375754417095,
+      "color": "#bbd1f8",
+      "n_voxels": 255791
+    },
+    "small_bowel": {
+      "group": "small_bowel",
+      "layer": "organ",
+      "rho": 0.06574052393955282,
+      "color": "#f1ccb8",
+      "n_voxels": 271629
+    },
+    "spinal_cord": {
+      "group": "spinal_cord",
+      "layer": "organ",
+      "rho": 0.0394415275262175,
+      "color": "#ead4c8",
+      "n_voxels": 26883
+    },
+    "spleen": {
+      "group": "spleen",
+      "layer": "organ",
+      "rho": -0.18822630776306862,
+      "color": "#84a7fc",
+      "n_voxels": 68599
+    },
+    "sternum": {
+      "group": "sternum",
+      "layer": "skeleton",
+      "rho": 0.14907455723504157,
+      "color": "#f7a688",
+      "n_voxels": 23187
+    },
+    "stomach": {
+      "group": "stomach",
+      "layer": "organ",
+      "rho": -0.06376528759609329,
+      "color": "#c3d5f4",
+      "n_voxels": 66327
+    },
+    "subclavian_artery_left": {
+      "group": "subclavian_artery",
+      "layer": "organ",
+      "rho": 0.34402786157084897,
+      "color": "#b40426",
+      "n_voxels": 3466
+    },
+    "subclavian_artery_right": {
+      "group": "subclavian_artery",
+      "layer": "organ",
+      "rho": 0.34402786157084897,
+      "color": "#b40426",
+      "n_voxels": 2626
+    },
+    "superior_vena_cava": {
+      "group": "vessels",
+      "layer": "organ",
+      "rho": 0.14906149448109027,
+      "color": "#f7a688",
+      "n_voxels": 6858
+    },
+    "thyroid_gland": {
+      "group": "thyroid_gland",
+      "layer": "organ",
+      "rho": 0.07760124411155268,
+      "color": "#f3c8b2",
+      "n_voxels": 5235
+    },
+    "trachea": {
+      "group": "airway",
+      "layer": "organ",
+      "rho": 0.11435516779613386,
+      "color": "#f7b89c",
+      "n_voxels": 14865
+    },
+    "urinary_bladder": {
+      "group": "bladder",
+      "layer": "organ",
+      "rho": -0.05413433452043974,
+      "color": "#c6d6f1",
+      "n_voxels": 29629
+    },
+    "vertebrae_C1": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4592
+    },
+    "vertebrae_C2": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 5843
+    },
+    "vertebrae_C3": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4289
+    },
+    "vertebrae_C4": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4325
+    },
+    "vertebrae_C5": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4634
+    },
+    "vertebrae_C6": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 4996
+    },
+    "vertebrae_C7": {
+      "group": "cervical_spine",
+      "layer": "skeleton",
+      "rho": 0.01724004811070059,
+      "color": "#e3d9d3",
+      "n_voxels": 6492
+    },
+    "vertebrae_L1": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 20684
+    },
+    "vertebrae_L2": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 21239
+    },
+    "vertebrae_L3": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 21491
+    },
+    "vertebrae_L4": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 20422
+    },
+    "vertebrae_L5": {
+      "group": "lumbar_spine",
+      "layer": "skeleton",
+      "rho": 0.17485735721195403,
+      "color": "#f39778",
+      "n_voxels": 22134
+    },
+    "vertebrae_S1": {
+      "group": "sacrum",
+      "layer": "skeleton",
+      "rho": 0.17208578119303253,
+      "color": "#f4987a",
+      "n_voxels": 17277
+    },
+    "vertebrae_T1": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7886
+    },
+    "vertebrae_T10": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 13796
+    },
+    "vertebrae_T11": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 16079
+    },
+    "vertebrae_T12": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 19199
+    },
+    "vertebrae_T2": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7542
+    },
+    "vertebrae_T3": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 7634
+    },
+    "vertebrae_T4": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 8407
+    },
+    "vertebrae_T5": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 9112
+    },
+    "vertebrae_T6": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 9221
+    },
+    "vertebrae_T7": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 11041
+    },
+    "vertebrae_T8": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 11272
+    },
+    "vertebrae_T9": {
+      "group": "thoracic_spine",
+      "layer": "skeleton",
+      "rho": 0.14500607852898048,
+      "color": "#f7a98b",
+      "n_voxels": 12371
+    }
+  },
+  "caveat": "Colour = measured cross-sectional Spearman rho(volume, age); CT-segmented real anatomy; schematic paint; not longitudinal."
+}

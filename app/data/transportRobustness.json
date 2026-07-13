@@ -1,0 +1,52 @@
+{
+  "source": "electrical-body-clock/results/act1_ecg/external_validation/chapman_phenotype_test.csv",
+  "site": [
+    {
+      "label": "Ningbo",
+      "n": 34343,
+      "cases": 329,
+      "oddsRatio": 1.198,
+      "ciLow": 1.069,
+      "ciHigh": 1.344,
+      "p": 0.00188
+    },
+    {
+      "label": "Chapman–Shaoxing",
+      "n": 10207,
+      "cases": 57,
+      "oddsRatio": 1.444,
+      "ciLow": 1.059,
+      "ciHigh": 1.967,
+      "p": 0.0181
+    }
+  ],
+  "rhythmSensitivity": [
+    {
+      "label": "Exclude flutter / AF",
+      "n": 34877,
+      "cases": 227,
+      "oddsRatio": 1.177,
+      "ciLow": 1.033,
+      "ciHigh": 1.342,
+      "p": 0.0138
+    },
+    {
+      "label": "Exclude sinus brady",
+      "n": 28052,
+      "cases": 245,
+      "oddsRatio": 1.125,
+      "ciLow": 0.979,
+      "ciHigh": 1.291,
+      "p": 0.0959
+    },
+    {
+      "label": "Exclude both",
+      "n": 18379,
+      "cases": 86,
+      "oddsRatio": 0.931,
+      "ciLow": 0.763,
+      "ciHigh": 1.136,
+      "p": 0.481
+    }
+  ]
+}
