@@ -141,6 +141,7 @@ export default function AtlasDashboard() {
             <Link href={`/?system=${system}`} aria-current="page">Atlas viewer</Link>
             <Link href={recordHref("/participant", participant)}>Participant</Link>
             <Link href={recordHref("/results", participant)}>Results</Link>
+            <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Paper</a>
           </nav>
           <span className="atlas-demo-status">Research use only</span>
         </header>

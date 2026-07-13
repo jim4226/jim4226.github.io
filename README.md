@@ -2,7 +2,7 @@
 
 **Interactive companion to _From Clocks to Coordinates_**
 
-[Research release](https://github.com/jim4226/ClaudeScienceHackathon_2026) · [6-page judge brief](https://github.com/jim4226/ClaudeScienceHackathon_2026/blob/main/electrical-body-clock/paper/clocks_to_coordinates.pdf) · [55-page technical paper](https://github.com/jim4226/ClaudeScienceHackathon_2026/blob/main/electrical-body-clock/paper/from_clocks_to_coordinates_full.pdf)
+[Research release](https://github.com/jim4226/ClaudeScienceHackathon_2026) · [6-page judge brief](https://jim4226.github.io/papers/from-clocks-to-coordinates-judge-brief.pdf) · [55-page technical paper](https://jim4226.github.io/papers/from-clocks-to-coordinates-full-paper.pdf)
 
 HumanVector Atlas is the reviewer-facing demo for **From Clocks to Coordinates**. It turns the research repository into a guided, interactive story: begin with one real ECG, split the heartbeat into electrical subsystem clocks, follow the null-to-mechanism-to-transport discovery arc, and then explore how the same coordinate question was tested across brain MRI, skeleton CT, organ systems, movement, and regulatory genomics.
 
