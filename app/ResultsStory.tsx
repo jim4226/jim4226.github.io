@@ -385,6 +385,9 @@ export default function ResultsStory({ profiles }: ResultsStoryProps) {
           <a href={`/?participant=${profile.id}`}>Atlas viewer</a>
           <a href={`/participant${participantQuery}`}>Participant explorer</a>
           <a href={`/results${participantQuery}`}>Presenter deck</a>
+          <a href="/papers/from-clocks-to-coordinates-full-paper.pdf" target="_blank" rel="noreferrer">Full paper</a>
+          <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Judge brief</a>
+          <a href="https://github.com/jim4226/ClaudeScienceHackathon_2026" target="_blank" rel="noreferrer">Research repo</a>
         </nav>
         <span className="story-research-pill">Research use only</span>
       </header>

@@ -2,7 +2,9 @@
 
 **Interactive companion to _From Clocks to Coordinates_**
 
-[Research release](https://github.com/jim4226/ClaudeScienceHackathon_2026) · [6-page judge brief](https://jim4226.github.io/papers/from-clocks-to-coordinates-judge-brief.pdf) · [55-page technical paper](https://jim4226.github.io/papers/from-clocks-to-coordinates-full-paper.pdf)
+**Primary research artifact:** [54-page full paper](https://jim4226.github.io/papers/from-clocks-to-coordinates-full-paper.pdf)
+
+[Interactive atlas](https://jim4226.github.io/) · [6-page judge brief](https://jim4226.github.io/papers/from-clocks-to-coordinates-judge-brief.pdf) · [Research repository](https://github.com/jim4226/ClaudeScienceHackathon_2026)
 
 HumanVector Atlas is the reviewer-facing demo for **From Clocks to Coordinates**. It turns the research repository into a guided, interactive story: begin with one real ECG, split the heartbeat into electrical subsystem clocks, follow the null-to-mechanism-to-transport discovery arc, and then explore how the same coordinate question was tested across brain MRI, skeleton CT, organ systems, movement, and regulatory genomics.
 
@@ -46,8 +48,8 @@ The product framing is deliberately precise: this is a **cross-cohort evidence a
 - Confirmatory disagreement-radius result: HR 1.010, 95% CI 0.983–1.039, LRT p = .478; n = 74,715, 2,583 deaths.
 - IKr direction: bootstrap median cosine 0.941 with 99.99% sign stability; nominal permutation p = .033.
 - External conditional association: OR 1.225/SD, 95% CI 1.10–1.364, p = 1.92 × 10⁻⁴; n = 44,550, 386 cases.
-- Brain: older D 0.517 versus young D 0.340; difference +0.177, p = 4.3 × 10⁻⁸, d = 0.844; n = 220.
-- CT skeleton: volume-only age MAE 8.56 years, R² = .432; n = 1,227 exams.
+- Brain: older D 0.517 versus young D 0.340; difference +0.177, p = 4.3 × 10⁻⁸, d = 0.844; n = 220. Balanced 69-versus-69 resampling kept the contrast positive in all 5,000 resamples (median d = 0.60), supporting an age-group shift rather than universal dysregulation.
+- CT atlas: a multi-region volume-only model achieved age MAE 8.56 years and R² = .432 in 1,227 exams. Skeleton panels show cross-sectional volume associations, not bone density or structure-specific aging rates.
 - NHANES: A_body HR 1.206, D_body HR 1.213; cross-validated C-index 0.8127 → 0.8262 → 0.8304.
 - Motion primary reserve test: OR 1.10, 95% CI 0.99–1.23, p = .070.
 - Skeletome: 1,955 HAR substitutions screened, 722 candidates retained; matched enrichment null p = .24.
@@ -62,7 +64,7 @@ npm run dev
 npm run build
 ```
 
-The GitHub Pages build is a static Next.js export. The site is self-contained at runtime: all scientific figures, ECG samples, named 3D anatomy, and aggregate association metadata are committed under `public/` or `app/data/`. `.github/workflows/pages.yml` builds and publishes `out/` whenever `main` changes.
+The GitHub Pages build is a static Next.js export. All scientific figures, ECG samples, named 3D anatomy, and aggregate association metadata are committed under `public/` or `app/data/`; the demo does not depend on a research-data API. `.github/workflows/pages.yml` builds and publishes `out/` whenever `main` changes.
 
 ## Key files
 
@@ -83,8 +85,10 @@ The GitHub Pages build is a static Next.js export. The site is self-contained at
 - `public/models/ct-skeleton.glb`, `public/models/ct-whole-body.glb` — real TotalSegmentator CT-derived meshes, CC BY 4.0.
 - `public/mri/lemon/` — canonical RAS LEMON T1/Atropos/DKT NIfTI volumes and their manifest.
 - `public/og.png` — typography-only social-preview artwork with no synthetic anatomy or linked-patient implication.
-- `PRESENTER_SCRIPT_LAST_TWO_MINUTES.md` — exact 1:00–3:00 clicks, spoken copy, timings, and claim guardrails.
+- `PRESENTER_SCRIPT_LAST_TWO_MINUTES.md` — committed 1:00–3:00 click sequence, spoken copy, timings, and claim guardrails.
 
 ## License and attribution
 
-The project code follows the parent repository's MIT license. PTB-XL examples and TotalSegmentator v2 assets are CC BY 4.0. LEMON data are shared under PDDL by the canonical INDI portal. The CardioMechanics heart is CC BY-NC 4.0 and is suitable here only for attributed, noncommercial hackathon display. Each redistributed scientific asset must retain the provenance and licensing obligations of its source dataset; the in-product links, footer, and disclosures are part of that provenance layer.
+The project code follows the parent repository's MIT license. The three ECG examples come from [PTB-XL v1.0.3](https://physionet.org/content/ptb-xl/1.0.3/) by Wagner et al. and are redistributed under CC BY 4.0. TotalSegmentator v2 assets are also CC BY 4.0. The MRI files were obtained from the public [MPI-LEMON release on the canonical INDI portal](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html), which lists PDDL as its data-sharing license; Atropos and DKT volumes are locally generated derivatives and are identified as such. The CardioMechanics heart is CC BY-NC 4.0 and is suitable here only for attributed, noncommercial hackathon display. Each redistributed scientific asset retains the source citation, license note, and scientific boundary appropriate to that source.
+
+The authoritative asset-by-asset record is [`ASSET_PROVENANCE.md`](ASSET_PROVENANCE.md). The full paper committed under `public/papers/` is the primary write-up for judging; the shorter brief is a navigation aid, not a replacement for the paper.

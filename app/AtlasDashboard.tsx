@@ -141,7 +141,9 @@ export default function AtlasDashboard() {
             <Link href={`/?system=${system}`} aria-current="page">Atlas viewer</Link>
             <Link href={recordHref("/participant", participant)}>Participant</Link>
             <Link href={recordHref("/results", participant)}>Results</Link>
-            <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Paper</a>
+            <a href="/papers/from-clocks-to-coordinates-full-paper.pdf" target="_blank" rel="noreferrer">Full paper</a>
+            <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Judge brief</a>
+            <a href="https://github.com/jim4226/ClaudeScienceHackathon_2026" target="_blank" rel="noreferrer">Research repo</a>
           </nav>
           <span className="atlas-demo-status">Research use only</span>
         </header>
@@ -172,6 +174,8 @@ export default function AtlasDashboard() {
         <footer className="atlas-footer">
           <span>Real released inputs · reference anatomy · visible cohort boundaries</span>
           <span>
+            <a href="https://physionet.org/content/ptb-xl/1.0.3/" target="_blank" rel="noreferrer">PTB-XL · CC BY 4.0</a>
+            {" · "}
             <a href="https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html" target="_blank" rel="noreferrer">LEMON</a>
             {" · "}
             <a href="https://zenodo.org/records/5573921" target="_blank" rel="noreferrer">CardioMechanics</a>
