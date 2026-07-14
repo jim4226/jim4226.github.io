@@ -338,6 +338,9 @@ export default function HumanVectorAtlas({ profiles }: { profiles: Profile[] }) 
             <Link href={`/?participant=${selected.id}`}>Atlas viewer</Link>
             <Link href={`/participant?participant=${selected.id}`} aria-current="page">Participant</Link>
             <Link href={`/results?participant=${selected.id}`}>Results</Link>
+            <a href="/papers/from-clocks-to-coordinates-full-paper.pdf" target="_blank" rel="noreferrer">Full paper</a>
+            <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Judge brief</a>
+            <a href="https://github.com/jim4226/ClaudeScienceHackathon_2026" target="_blank" rel="noreferrer">Research repo</a>
           </nav>
           <span className="atlas-demo-status">Research use only</span>
         </header>
@@ -458,7 +461,7 @@ export default function HumanVectorAtlas({ profiles }: { profiles: Profile[] }) 
 
         <footer className="atlas-footer">
           <span>HumanVector atlas · research prototype</span>
-          <span>Real ECG records · visible cohort boundaries · not medical advice</span>
+          <span><a href="https://physionet.org/content/ptb-xl/1.0.3/" target="_blank" rel="noreferrer">PTB-XL v1.0.3 · Wagner et al. · CC BY 4.0</a> · visible cohort boundaries · not medical advice</span>
         </footer>
       </div>
     </main>

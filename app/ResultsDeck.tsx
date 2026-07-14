@@ -670,6 +670,9 @@ export default function ResultsDeck({ profiles }: ResultsDeckProps) {
           <nav className="deck-header-links" aria-label="Results pages">
             <Link href={queryHref("/results", { slide: activeSlide.id, beat: String(beatIndex + 1), participant: selectedParticipant })}>Story</Link>
             <Link href={queryHref("/results", { view: "full", participant: selectedParticipant })}>Evidence</Link>
+            <a href="/papers/from-clocks-to-coordinates-full-paper.pdf" target="_blank" rel="noreferrer">Full paper</a>
+            <a href="/papers/from-clocks-to-coordinates-judge-brief.pdf" target="_blank" rel="noreferrer">Judge brief</a>
+            <a href="https://github.com/jim4226/ClaudeScienceHackathon_2026" target="_blank" rel="noreferrer">Research repo</a>
           </nav>
         </header>
 
